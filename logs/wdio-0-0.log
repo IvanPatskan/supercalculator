@@ -1,0 +1,359 @@
+2020-08-07T12:11:45.046Z INFO @wdio/local-runner: Run worker command: run
+2020-08-07T12:11:45.078Z DEBUG @wdio/local-runner:utils: init remote session
+2020-08-07T12:11:45.087Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-08-07T12:11:46.991Z DEBUG @wdio/local-runner:utils: init remote session
+2020-08-07T12:11:49.031Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-08-07T12:11:49.036Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-08-07T12:11:50.612Z INFO devtools: Connect Puppeteer with browser on port 61380
+2020-08-07T12:11:54.901Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:11:55.931Z INFO devtools: RESULT null
+2020-08-07T12:11:55.964Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:11:55.994Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-08-07T12:11:56.040Z INFO devtools: COMMAND elementClear("ELEMENT-1")
+2020-08-07T12:11:56.051Z INFO devtools: RESULT null
+2020-08-07T12:11:56.059Z INFO devtools: COMMAND elementSendKeys("ELEMENT-1", "5")
+2020-08-07T12:11:56.112Z INFO devtools: RESULT null
+2020-08-07T12:11:56.130Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:11:56.143Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2020-08-07T12:11:56.159Z INFO devtools: COMMAND elementClear("ELEMENT-2")
+2020-08-07T12:11:56.169Z INFO devtools: RESULT null
+2020-08-07T12:11:56.174Z INFO devtools: COMMAND elementSendKeys("ELEMENT-2", "6")
+2020-08-07T12:11:56.209Z INFO devtools: RESULT null
+2020-08-07T12:11:56.215Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:11:56.224Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2020-08-07T12:11:56.235Z INFO devtools: COMMAND findElementFromElement("ELEMENT-3", "xpath", "./option[. = "+"]|./option[normalize-space(text()) = "+"]|./optgroup/option[. = "+"]|./optgroup/option[normalize-space(text()) = "+"]")
+2020-08-07T12:11:56.244Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+2020-08-07T12:11:56.249Z INFO devtools: COMMAND elementClick("ELEMENT-4")
+2020-08-07T12:11:58.288Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:11:58.305Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2020-08-07T12:11:58.318Z INFO devtools: COMMAND elementClick("ELEMENT-5")
+2020-08-07T12:11:58.356Z INFO devtools: RESULT null
+2020-08-07T12:12:00.368Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:00.379Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2020-08-07T12:12:00.390Z INFO devtools: COMMAND getElementText("ELEMENT-6")
+2020-08-07T12:12:00.398Z INFO devtools: RESULT 11
+2020-08-07T12:12:00.419Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:00.607Z INFO devtools: RESULT null
+2020-08-07T12:12:00.622Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:00.636Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2020-08-07T12:12:00.646Z INFO devtools: COMMAND elementClear("ELEMENT-7")
+2020-08-07T12:12:00.656Z INFO devtools: RESULT null
+2020-08-07T12:12:00.670Z INFO devtools: COMMAND elementSendKeys("ELEMENT-7", "50")
+2020-08-07T12:12:00.723Z INFO devtools: RESULT null
+2020-08-07T12:12:00.729Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:00.740Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' }
+2020-08-07T12:12:00.756Z INFO devtools: COMMAND elementClear("ELEMENT-8")
+2020-08-07T12:12:00.763Z INFO devtools: RESULT null
+2020-08-07T12:12:00.771Z INFO devtools: COMMAND elementSendKeys("ELEMENT-8", "25")
+2020-08-07T12:12:00.833Z INFO devtools: RESULT null
+2020-08-07T12:12:00.839Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:00.849Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2020-08-07T12:12:00.874Z INFO devtools: COMMAND findElementFromElement("ELEMENT-9", "xpath", "./option[. = "+"]|./option[normalize-space(text()) = "+"]|./optgroup/option[. = "+"]|./optgroup/option[normalize-space(text()) = "+"]")
+2020-08-07T12:12:00.888Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-10' }
+2020-08-07T12:12:00.894Z INFO devtools: COMMAND elementClick("ELEMENT-10")
+2020-08-07T12:12:02.921Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:02.931Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-11' }
+2020-08-07T12:12:02.941Z INFO devtools: COMMAND elementClick("ELEMENT-11")
+2020-08-07T12:12:02.978Z INFO devtools: RESULT null
+2020-08-07T12:12:04.987Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:04.996Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-12' }
+2020-08-07T12:12:05.007Z INFO devtools: COMMAND getElementText("ELEMENT-12")
+2020-08-07T12:12:05.014Z INFO devtools: RESULT 75
+2020-08-07T12:12:05.026Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:05.185Z INFO devtools: RESULT null
+2020-08-07T12:12:05.199Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:05.217Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-13' }
+2020-08-07T12:12:05.234Z INFO devtools: COMMAND elementClear("ELEMENT-13")
+2020-08-07T12:12:05.245Z INFO devtools: RESULT null
+2020-08-07T12:12:05.250Z INFO devtools: COMMAND elementSendKeys("ELEMENT-13", "5")
+2020-08-07T12:12:05.289Z INFO devtools: RESULT null
+2020-08-07T12:12:05.298Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:05.309Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-14' }
+2020-08-07T12:12:05.322Z INFO devtools: COMMAND elementClear("ELEMENT-14")
+2020-08-07T12:12:05.329Z INFO devtools: RESULT null
+2020-08-07T12:12:05.341Z INFO devtools: COMMAND elementSendKeys("ELEMENT-14", "-5")
+2020-08-07T12:12:05.404Z INFO devtools: RESULT null
+2020-08-07T12:12:05.410Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:05.424Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-15' }
+2020-08-07T12:12:05.449Z INFO devtools: COMMAND findElementFromElement("ELEMENT-15", "xpath", "./option[. = "+"]|./option[normalize-space(text()) = "+"]|./optgroup/option[. = "+"]|./optgroup/option[normalize-space(text()) = "+"]")
+2020-08-07T12:12:05.462Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-16' }
+2020-08-07T12:12:05.473Z INFO devtools: COMMAND elementClick("ELEMENT-16")
+2020-08-07T12:12:07.507Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:07.517Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-17' }
+2020-08-07T12:12:07.529Z INFO devtools: COMMAND elementClick("ELEMENT-17")
+2020-08-07T12:12:07.560Z INFO devtools: RESULT null
+2020-08-07T12:12:09.571Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:09.580Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-18' }
+2020-08-07T12:12:09.600Z INFO devtools: COMMAND getElementText("ELEMENT-18")
+2020-08-07T12:12:09.608Z INFO devtools: RESULT 0
+2020-08-07T12:12:09.622Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:09.797Z INFO devtools: RESULT null
+2020-08-07T12:12:09.810Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:09.821Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-19' }
+2020-08-07T12:12:09.833Z INFO devtools: COMMAND elementClear("ELEMENT-19")
+2020-08-07T12:12:09.849Z INFO devtools: RESULT null
+2020-08-07T12:12:09.856Z INFO devtools: COMMAND elementSendKeys("ELEMENT-19", "-3")
+2020-08-07T12:12:09.908Z INFO devtools: RESULT null
+2020-08-07T12:12:09.917Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:09.928Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-20' }
+2020-08-07T12:12:09.937Z INFO devtools: COMMAND elementClear("ELEMENT-20")
+2020-08-07T12:12:09.949Z INFO devtools: RESULT null
+2020-08-07T12:12:09.954Z INFO devtools: COMMAND elementSendKeys("ELEMENT-20", "-4")
+2020-08-07T12:12:10.022Z INFO devtools: RESULT null
+2020-08-07T12:12:10.036Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:10.049Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-21' }
+2020-08-07T12:12:10.062Z INFO devtools: COMMAND findElementFromElement("ELEMENT-21", "xpath", "./option[. = "+"]|./option[normalize-space(text()) = "+"]|./optgroup/option[. = "+"]|./optgroup/option[normalize-space(text()) = "+"]")
+2020-08-07T12:12:10.070Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-22' }
+2020-08-07T12:12:10.081Z INFO devtools: COMMAND elementClick("ELEMENT-22")
+2020-08-07T12:12:12.110Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:12.119Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-23' }
+2020-08-07T12:12:12.127Z INFO devtools: COMMAND elementClick("ELEMENT-23")
+2020-08-07T12:12:12.153Z INFO devtools: RESULT null
+2020-08-07T12:12:14.162Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:14.170Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-24' }
+2020-08-07T12:12:14.178Z INFO devtools: COMMAND getElementText("ELEMENT-24")
+2020-08-07T12:12:14.184Z INFO devtools: RESULT -7
+2020-08-07T12:12:14.195Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:14.367Z INFO devtools: RESULT null
+2020-08-07T12:12:14.382Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:14.395Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-25' }
+2020-08-07T12:12:14.402Z INFO devtools: COMMAND elementClear("ELEMENT-25")
+2020-08-07T12:12:14.420Z INFO devtools: RESULT null
+2020-08-07T12:12:14.427Z INFO devtools: COMMAND elementSendKeys("ELEMENT-25", "10")
+2020-08-07T12:12:14.476Z INFO devtools: RESULT null
+2020-08-07T12:12:14.482Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:14.494Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-26' }
+2020-08-07T12:12:14.502Z INFO devtools: COMMAND elementClear("ELEMENT-26")
+2020-08-07T12:12:14.516Z INFO devtools: RESULT null
+2020-08-07T12:12:14.526Z INFO devtools: COMMAND elementSendKeys("ELEMENT-26", "3")
+2020-08-07T12:12:14.567Z INFO devtools: RESULT null
+2020-08-07T12:12:14.582Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:14.595Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-27' }
+2020-08-07T12:12:14.604Z INFO devtools: COMMAND findElementFromElement("ELEMENT-27", "xpath", "./option[. = "-"]|./option[normalize-space(text()) = "-"]|./optgroup/option[. = "-"]|./optgroup/option[normalize-space(text()) = "-"]")
+2020-08-07T12:12:14.615Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-28' }
+2020-08-07T12:12:14.619Z INFO devtools: COMMAND elementClick("ELEMENT-28")
+2020-08-07T12:12:16.644Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:16.650Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-29' }
+2020-08-07T12:12:16.658Z INFO devtools: COMMAND elementClick("ELEMENT-29")
+2020-08-07T12:12:16.685Z INFO devtools: RESULT null
+2020-08-07T12:12:18.695Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:18.702Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-30' }
+2020-08-07T12:12:18.718Z INFO devtools: COMMAND getElementText("ELEMENT-30")
+2020-08-07T12:12:18.724Z INFO devtools: RESULT 13
+2020-08-07T12:12:18.754Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:18.930Z INFO devtools: RESULT null
+2020-08-07T12:12:18.945Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:18.957Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-31' }
+2020-08-07T12:12:18.966Z INFO devtools: COMMAND elementClear("ELEMENT-31")
+2020-08-07T12:12:18.977Z INFO devtools: RESULT null
+2020-08-07T12:12:18.982Z INFO devtools: COMMAND elementSendKeys("ELEMENT-31", "5")
+2020-08-07T12:12:19.022Z INFO devtools: RESULT null
+2020-08-07T12:12:19.032Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:19.047Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-32' }
+2020-08-07T12:12:19.056Z INFO devtools: COMMAND elementClear("ELEMENT-32")
+2020-08-07T12:12:19.063Z INFO devtools: RESULT null
+2020-08-07T12:12:19.071Z INFO devtools: COMMAND elementSendKeys("ELEMENT-32", "-5")
+2020-08-07T12:12:19.122Z INFO devtools: RESULT null
+2020-08-07T12:12:19.163Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:19.226Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-33' }
+2020-08-07T12:12:19.241Z INFO devtools: COMMAND findElementFromElement("ELEMENT-33", "xpath", "./option[. = "-"]|./option[normalize-space(text()) = "-"]|./optgroup/option[. = "-"]|./optgroup/option[normalize-space(text()) = "-"]")
+2020-08-07T12:12:19.248Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-34' }
+2020-08-07T12:12:19.255Z INFO devtools: COMMAND elementClick("ELEMENT-34")
+2020-08-07T12:12:21.284Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:21.294Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-35' }
+2020-08-07T12:12:21.306Z INFO devtools: COMMAND elementClick("ELEMENT-35")
+2020-08-07T12:12:21.348Z INFO devtools: RESULT null
+2020-08-07T12:12:23.378Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:23.387Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-36' }
+2020-08-07T12:12:23.400Z INFO devtools: COMMAND getElementText("ELEMENT-36")
+2020-08-07T12:12:23.406Z INFO devtools: RESULT 0
+2020-08-07T12:12:23.425Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:23.568Z INFO devtools: RESULT null
+2020-08-07T12:12:23.579Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:23.596Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-37' }
+2020-08-07T12:12:23.608Z INFO devtools: COMMAND elementClear("ELEMENT-37")
+2020-08-07T12:12:23.616Z INFO devtools: RESULT null
+2020-08-07T12:12:23.622Z INFO devtools: COMMAND elementSendKeys("ELEMENT-37", "2")
+2020-08-07T12:12:23.658Z INFO devtools: RESULT null
+2020-08-07T12:12:23.673Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:23.686Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-38' }
+2020-08-07T12:12:23.702Z INFO devtools: COMMAND elementClear("ELEMENT-38")
+2020-08-07T12:12:23.710Z INFO devtools: RESULT null
+2020-08-07T12:12:23.719Z INFO devtools: COMMAND elementSendKeys("ELEMENT-38", "5")
+2020-08-07T12:12:23.755Z INFO devtools: RESULT null
+2020-08-07T12:12:23.760Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:23.777Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-39' }
+2020-08-07T12:12:23.795Z INFO devtools: COMMAND findElementFromElement("ELEMENT-39", "xpath", "./option[. = "-"]|./option[normalize-space(text()) = "-"]|./optgroup/option[. = "-"]|./optgroup/option[normalize-space(text()) = "-"]")
+2020-08-07T12:12:23.807Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-40' }
+2020-08-07T12:12:23.811Z INFO devtools: COMMAND elementClick("ELEMENT-40")
+2020-08-07T12:12:25.848Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:25.870Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-41' }
+2020-08-07T12:12:25.882Z INFO devtools: COMMAND elementClick("ELEMENT-41")
+2020-08-07T12:12:25.909Z INFO devtools: RESULT null
+2020-08-07T12:12:27.930Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:28.055Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-42' }
+2020-08-07T12:12:28.082Z INFO devtools: COMMAND getElementText("ELEMENT-42")
+2020-08-07T12:12:28.092Z INFO devtools: RESULT 7
+2020-08-07T12:12:28.114Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:28.276Z INFO devtools: RESULT null
+2020-08-07T12:12:28.304Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:28.323Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-43' }
+2020-08-07T12:12:28.336Z INFO devtools: COMMAND elementClear("ELEMENT-43")
+2020-08-07T12:12:28.345Z INFO devtools: RESULT null
+2020-08-07T12:12:28.349Z INFO devtools: COMMAND elementSendKeys("ELEMENT-43", "-2")
+2020-08-07T12:12:28.407Z INFO devtools: RESULT null
+2020-08-07T12:12:28.419Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:28.430Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-44' }
+2020-08-07T12:12:28.442Z INFO devtools: COMMAND elementClear("ELEMENT-44")
+2020-08-07T12:12:28.454Z INFO devtools: RESULT null
+2020-08-07T12:12:28.460Z INFO devtools: COMMAND elementSendKeys("ELEMENT-44", "-3")
+2020-08-07T12:12:28.531Z INFO devtools: RESULT null
+2020-08-07T12:12:28.537Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:28.549Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-45' }
+2020-08-07T12:12:28.558Z INFO devtools: COMMAND findElementFromElement("ELEMENT-45", "xpath", "./option[. = "-"]|./option[normalize-space(text()) = "-"]|./optgroup/option[. = "-"]|./optgroup/option[normalize-space(text()) = "-"]")
+2020-08-07T12:12:28.569Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-46' }
+2020-08-07T12:12:28.573Z INFO devtools: COMMAND elementClick("ELEMENT-46")
+2020-08-07T12:12:30.602Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:30.610Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-47' }
+2020-08-07T12:12:30.617Z INFO devtools: COMMAND elementClick("ELEMENT-47")
+2020-08-07T12:12:30.643Z INFO devtools: RESULT null
+2020-08-07T12:12:32.650Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:32.657Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-48' }
+2020-08-07T12:12:32.665Z INFO devtools: COMMAND getElementText("ELEMENT-48")
+2020-08-07T12:12:32.672Z INFO devtools: RESULT -5
+2020-08-07T12:12:32.687Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:32.856Z INFO devtools: RESULT null
+2020-08-07T12:12:32.868Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:32.884Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-49' }
+2020-08-07T12:12:32.894Z INFO devtools: COMMAND elementClear("ELEMENT-49")
+2020-08-07T12:12:32.901Z INFO devtools: RESULT null
+2020-08-07T12:12:32.908Z INFO devtools: COMMAND elementSendKeys("ELEMENT-49", "-4")
+2020-08-07T12:12:32.976Z INFO devtools: RESULT null
+2020-08-07T12:12:32.984Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:32.996Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-50' }
+2020-08-07T12:12:33.014Z INFO devtools: COMMAND elementClear("ELEMENT-50")
+2020-08-07T12:12:33.021Z INFO devtools: RESULT null
+2020-08-07T12:12:33.033Z INFO devtools: COMMAND elementSendKeys("ELEMENT-50", "3")
+2020-08-07T12:12:33.088Z INFO devtools: RESULT null
+2020-08-07T12:12:33.097Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:33.103Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-51' }
+2020-08-07T12:12:33.116Z INFO devtools: COMMAND findElementFromElement("ELEMENT-51", "xpath", "./option[. = "-"]|./option[normalize-space(text()) = "-"]|./optgroup/option[. = "-"]|./optgroup/option[normalize-space(text()) = "-"]")
+2020-08-07T12:12:33.126Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-52' }
+2020-08-07T12:12:33.131Z INFO devtools: COMMAND elementClick("ELEMENT-52")
+2020-08-07T12:12:35.156Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:35.168Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-53' }
+2020-08-07T12:12:35.176Z INFO devtools: COMMAND elementClick("ELEMENT-53")
+2020-08-07T12:12:35.201Z INFO devtools: RESULT null
+2020-08-07T12:12:37.210Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:37.217Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-54' }
+2020-08-07T12:12:37.226Z INFO devtools: COMMAND getElementText("ELEMENT-54")
+2020-08-07T12:12:37.260Z INFO devtools: RESULT -1
+2020-08-07T12:12:37.279Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:37.508Z INFO devtools: RESULT null
+2020-08-07T12:12:37.544Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:37.557Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-55' }
+2020-08-07T12:12:37.570Z INFO devtools: COMMAND elementClear("ELEMENT-55")
+2020-08-07T12:12:37.577Z INFO devtools: RESULT null
+2020-08-07T12:12:37.581Z INFO devtools: COMMAND elementSendKeys("ELEMENT-55", "4")
+2020-08-07T12:12:37.660Z INFO devtools: RESULT null
+2020-08-07T12:12:37.667Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:37.683Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-56' }
+2020-08-07T12:12:37.694Z INFO devtools: COMMAND elementClear("ELEMENT-56")
+2020-08-07T12:12:37.700Z INFO devtools: RESULT null
+2020-08-07T12:12:37.709Z INFO devtools: COMMAND elementSendKeys("ELEMENT-56", "5")
+2020-08-07T12:12:37.755Z INFO devtools: RESULT null
+2020-08-07T12:12:37.761Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:37.770Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-57' }
+2020-08-07T12:12:37.778Z INFO devtools: COMMAND findElementFromElement("ELEMENT-57", "xpath", "./option[. = "*"]|./option[normalize-space(text()) = "*"]|./optgroup/option[. = "*"]|./optgroup/option[normalize-space(text()) = "*"]")
+2020-08-07T12:12:37.786Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-58' }
+2020-08-07T12:12:37.793Z INFO devtools: COMMAND elementClick("ELEMENT-58")
+2020-08-07T12:12:39.816Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:39.823Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-59' }
+2020-08-07T12:12:39.831Z INFO devtools: COMMAND elementClick("ELEMENT-59")
+2020-08-07T12:12:39.858Z INFO devtools: RESULT null
+2020-08-07T12:12:41.867Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:41.877Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-60' }
+2020-08-07T12:12:41.887Z INFO devtools: COMMAND getElementText("ELEMENT-60")
+2020-08-07T12:12:41.896Z INFO devtools: RESULT 9
+2020-08-07T12:12:41.918Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:42.121Z INFO devtools: RESULT null
+2020-08-07T12:12:42.156Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:42.198Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-61' }
+2020-08-07T12:12:42.208Z INFO devtools: COMMAND elementClear("ELEMENT-61")
+2020-08-07T12:12:42.217Z INFO devtools: RESULT null
+2020-08-07T12:12:42.223Z INFO devtools: COMMAND elementSendKeys("ELEMENT-61", "5")
+2020-08-07T12:12:42.280Z INFO devtools: RESULT null
+2020-08-07T12:12:42.293Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:42.310Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-62' }
+2020-08-07T12:12:42.327Z INFO devtools: COMMAND elementClear("ELEMENT-62")
+2020-08-07T12:12:42.342Z INFO devtools: RESULT null
+2020-08-07T12:12:42.355Z INFO devtools: COMMAND elementSendKeys("ELEMENT-62", "-5")
+2020-08-07T12:12:42.426Z INFO devtools: RESULT null
+2020-08-07T12:12:42.435Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:42.444Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-63' }
+2020-08-07T12:12:42.457Z INFO devtools: COMMAND findElementFromElement("ELEMENT-63", "xpath", "./option[. = "*"]|./option[normalize-space(text()) = "*"]|./optgroup/option[. = "*"]|./optgroup/option[normalize-space(text()) = "*"]")
+2020-08-07T12:12:42.469Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-64' }
+2020-08-07T12:12:42.475Z INFO devtools: COMMAND elementClick("ELEMENT-64")
+2020-08-07T12:12:44.517Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:44.528Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-65' }
+2020-08-07T12:12:44.539Z INFO devtools: COMMAND elementClick("ELEMENT-65")
+2020-08-07T12:12:44.580Z INFO devtools: RESULT null
+2020-08-07T12:12:46.589Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:46.597Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-66' }
+2020-08-07T12:12:46.606Z INFO devtools: COMMAND getElementText("ELEMENT-66")
+2020-08-07T12:12:46.613Z INFO devtools: RESULT 0
+2020-08-07T12:12:46.632Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:46.958Z INFO devtools: RESULT null
+2020-08-07T12:12:46.978Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:46.992Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-67' }
+2020-08-07T12:12:47.006Z INFO devtools: COMMAND elementClear("ELEMENT-67")
+2020-08-07T12:12:47.023Z INFO devtools: RESULT null
+2020-08-07T12:12:47.034Z INFO devtools: COMMAND elementSendKeys("ELEMENT-67", "2")
+2020-08-07T12:12:47.087Z INFO devtools: RESULT null
+2020-08-07T12:12:47.097Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:47.109Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-68' }
+2020-08-07T12:12:47.119Z INFO devtools: COMMAND elementClear("ELEMENT-68")
+2020-08-07T12:12:47.128Z INFO devtools: RESULT null
+2020-08-07T12:12:47.137Z INFO devtools: COMMAND elementSendKeys("ELEMENT-68", "0")
+2020-08-07T12:12:47.184Z INFO devtools: RESULT null
+2020-08-07T12:12:47.191Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:47.200Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-69' }
+2020-08-07T12:12:47.210Z INFO devtools: COMMAND findElementFromElement("ELEMENT-69", "xpath", "./option[. = "*"]|./option[normalize-space(text()) = "*"]|./optgroup/option[. = "*"]|./optgroup/option[normalize-space(text()) = "*"]")
+2020-08-07T12:12:47.220Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-70' }
+2020-08-07T12:12:47.225Z INFO devtools: COMMAND elementClick("ELEMENT-70")
+2020-08-07T12:12:49.263Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:49.274Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-71' }
+2020-08-07T12:12:49.281Z INFO devtools: COMMAND elementClick("ELEMENT-71")
+2020-08-07T12:12:49.311Z INFO devtools: RESULT null
+2020-08-07T12:12:51.319Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:51.325Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-72' }
+2020-08-07T12:12:51.333Z INFO devtools: COMMAND getElementText("ELEMENT-72")
+2020-08-07T12:12:51.339Z INFO devtools: RESULT 2
+2020-08-07T12:12:51.363Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")
+2020-08-07T12:12:51.552Z INFO devtools: RESULT null
+2020-08-07T12:12:51.569Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[1]")
+2020-08-07T12:12:51.584Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-73' }
+2020-08-07T12:12:51.595Z INFO devtools: COMMAND elementClear("ELEMENT-73")
+2020-08-07T12:12:51.610Z INFO devtools: RESULT null
+2020-08-07T12:12:51.616Z INFO devtools: COMMAND elementSendKeys("ELEMENT-73", "-4")
+2020-08-07T12:12:51.679Z INFO devtools: RESULT null
+2020-08-07T12:12:51.684Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/input[2]")
+2020-08-07T12:12:51.695Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-74' }
+2020-08-07T12:12:51.712Z INFO devtools: COMMAND elementClear("ELEMENT-74")
+2020-08-07T12:12:51.728Z INFO devtools: RESULT null
+2020-08-07T12:12:51.735Z INFO devtools: COMMAND elementSendKeys("ELEMENT-74", "-3")
+2020-08-07T12:12:51.789Z INFO devtools: RESULT null
+2020-08-07T12:12:51.796Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/select")
+2020-08-07T12:12:51.813Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-75' }
+2020-08-07T12:12:51.824Z INFO devtools: COMMAND findElementFromElement("ELEMENT-75", "xpath", "./option[. = "*"]|./option[normalize-space(text()) = "*"]|./optgroup/option[. = "*"]|./optgroup/option[normalize-space(text()) = "*"]")
+2020-08-07T12:12:51.834Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-76' }
+2020-08-07T12:12:51.840Z INFO devtools: COMMAND elementClick("ELEMENT-76")
+2020-08-07T12:12:53.868Z INFO devtools: COMMAND findElement("xpath", "//*[@id='gobutton']")
+2020-08-07T12:12:53.888Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-77' }
+2020-08-07T12:12:53.897Z INFO devtools: COMMAND elementClick("ELEMENT-77")
+2020-08-07T12:12:53.920Z INFO devtools: RESULT null
+2020-08-07T12:12:55.928Z INFO devtools: COMMAND findElement("xpath", "/html/body/div/div/form/h2")
+2020-08-07T12:12:55.935Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-78' }
+2020-08-07T12:12:55.946Z INFO devtools: COMMAND getElementText("ELEMENT-78")
+2020-08-07T12:12:55.952Z INFO devtools: RESULT -7
+2020-08-07T12:12:55.965Z INFO devtools: COMMAND navigateTo("http://juliemr.github.io/protractor-demo/")

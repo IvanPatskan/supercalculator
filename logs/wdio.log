@@ -1,0 +1,23 @@
+2020-08-07T12:11:43.006Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-08-07T12:11:43.018Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-08-07T12:11:43.024Z INFO @wdio/local-runner: Start worker 0-0 with arg: 
+2020-08-07T12:12:58.320Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-08-07T12:12:58.575Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:12:58.825Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:12:59.077Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:12:59.327Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:12:59.577Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:12:59.827Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:00.077Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:00.328Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:00.578Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:00.829Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:01.078Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:01.329Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:01.579Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:01.830Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:02.080Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:02.343Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:02.593Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:02.843Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-08-07T12:13:03.094Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully

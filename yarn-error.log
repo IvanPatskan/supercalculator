@@ -1,0 +1,97 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\User\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Wolfram Research\WolframScript\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\User\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python37-32\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  {
+    "author": "Christian Bromann <christian@saucelabs.com>",
+    "license": "MIT",
+    "name": "cucumber-boilerplate",
+    "version": "2.0.0",
+    "description": "Boilerplate project to run WebdriverIO tests with Cucumber",
+    "homepage": "https://github.com/webdriverio/cucumber-boilerplate",
+    "contributors": [
+      "W. van Kuipers <github@pwnd.nl>"
+    ],
+    "repository": {
+      "type": "git",
+      "getUrl": "https://github.com/webdriverio/cucumber-boilerplate.git"
+    },
+    "bugs": {
+      "getUrl": "https://github.com/webdriverio/cucumber-boilerplate/issues"
+    },
+    "keywords": [
+      "wdio",
+      "webdriver",
+      "webdriverio",
+      "cucumber",
+      "test",
+      "boilerplate",
+      "selenium"
+    ],
+    "scripts": {
+      "clean": "read -p \"Are you sure you want to clean the project? [y/n] \" REPLY; if [[ $REPLY =~ ^[Yy]$ ]]; then rm -R .git .github demo-app test .codeclimate.yml .travis.yml jest.json wdio.BUILD.conf.js src/features/**; fi",
+      "test": "run-s test:*",
+      "test:lint": "eslint 'src/**/*.js' 'test/**/*.js!(setup.js)'",
+      "test:unit": "jest --config=jest.json --detectOpenHandles",
+      "test:features": "wdio wdio.BUILD.conf.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/cli": "^7.8.4",
+      "@babel/core": "^7.9.0",
+      "@babel/plugin-proposal-export-default-from": "^7.8.3",
+      "@babel/preset-env": "^7.9.0",
+      "@babel/register": "^7.9.0",
+      "@types/cucumber": "^6.0.1",
+      "@wdio/cli": "^6.0.8",
+      "@wdio/config": "^6.0.8",
+      "@wdio/cucumber-framework": "^6.0.8",
+      "@wdio/local-runner": "^6.0.8",
+      "@wdio/selenium-standalone-service": "^6.0.8",
+      "@wdio/spec-reporter": "^6.0.8",
+      "@wdio/static-server-service": "^6.0.8",
+      "@wdio/sync": "^6.0.8",
+      "babel-jest": "^26.0.1",
+      "chromedriver": "^84.0.1",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-plugin-import": "^2.20.2",
+      "eslint-plugin-wdio": "^6.0.8",
+      "http-server": "^0.12.1",
+      "jest": "^26.2.2",
+      "npm-run-all": "^4.1.5",
+      "wdio-chromedriver-service": "^6.0.3",
+      "webdriverio": "^6.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
